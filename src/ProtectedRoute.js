@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
-import { isUserLoggedIn } from './components/functions/UserLoggedIn';
+import { isUserLoggedIn } from './functions/UserLoggedIn';
 
 const ProtectedRoute = () => {
   let currentUser = isUserLoggedIn()

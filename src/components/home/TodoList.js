@@ -6,7 +6,7 @@ import BlinkingCircle from "./BlinkingCircle";
 import RenderItems from "./RenderItems";
 import AddTodoDialog from "./AddTodoDialog";
 import ConfirmationBox from "./ConfirmationBox";
-import { getUserTodo, updateUserTodo } from "../functions/UserChats";
+import { getUserTodo, updateUserTodo } from "../../functions/UserChats";
 
 export default function TodoList() {
   const [itemList, setItemList] = useState(null);

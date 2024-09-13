@@ -3,8 +3,8 @@ import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import { TextInput } from "../common/TextInput";
 import { SubmitButton } from "../common/SubmitButton";
-import { ValidationSchema } from "../validation/ValidationSchema";
-import { checkUserLogin } from "../functions/CheckUserLogin";
+import { ValidationSchema } from "../../validation/ValidationSchema";
+import { checkUserLogin } from "../../functions/CheckUserLogin";
 import { useNavigate } from "react-router-dom";
 
 export default function Signin({ toggleView }) {

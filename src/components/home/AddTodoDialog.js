@@ -6,7 +6,7 @@ import { SubmitButton } from "../common/SubmitButton";
 import { TextInput } from "../common/TextInput";
 import { Form, Formik } from "formik";
 import * as Yup from "yup";
-import { ValidationSchema } from "../validation/ValidationSchema";
+import { ValidationSchema } from "../../validation/ValidationSchema";
 
 export default function AddTodoDialog({
   viewDialog,
