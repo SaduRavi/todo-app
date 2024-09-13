@@ -3,8 +3,8 @@ import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import { TextInput } from "../common/TextInput";
 import { SubmitButton } from "../common/SubmitButton";
-import { ValidationSchema } from "../validation/ValidationSchema";
-import { saveSignupUser } from "../functions/SaveSignupUser";
+import { ValidationSchema } from "../../validation/ValidationSchema";
+import { saveSignupUser } from "../../functions/SaveSignupUser";
 
 export default function Signup({ toggleView }) {
   return (

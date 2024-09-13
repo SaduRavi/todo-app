@@ -1,8 +1,8 @@
 import React from "react";
 import NavBar from "../components/home/NavBar";
 import TodoList from "../components/home/TodoList";
-import { logoutUser } from "../components/functions/UserLogout";
 import { useNavigate } from "react-router-dom";
+import { logoutUser } from "../functions/UserLogout";
 
 export default function HomePage() {
   const navigate = useNavigate();
