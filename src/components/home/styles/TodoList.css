@@ -1,0 +1,79 @@
+.listContainer {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.addTodoButtonContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.addTodoButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 30px;
+    background-color: #e96d76;
+}
+
+.addTodoButton:hover {
+    background-color: #f71a29;
+}
+
+.listHeader {
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.listHeader p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.listItemContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+.listItemOpenItems,
+.listItemCloseItems  {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+
+@media(min-width: 900px) {
+    .listItemContainer {
+        flex-direction: row;
+        width: 100%;
+        align-items: start;
+    }
+
+    .listItemCloseItems,
+    .listItemOpenItems {
+        width: 50%;
+        margin: 0 30px;
+        padding-bottom: 30px;
+    }
+}
